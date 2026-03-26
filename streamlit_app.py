@@ -40,8 +40,8 @@ with col1:
         "Study Hours",
         min_value=float(df["study_hours"].min()),
         max_value=float(df["study_hours"].max()),
-        value=5.0,
-        step=0.5,
+        value=12.0,
+        step=1.0,
         help="Select the number of study hours"
     )
 
@@ -50,8 +50,8 @@ with col2:
         "Sleep Hours",
         min_value=float(df["sleep_hours"].min()),
         max_value=float(df["sleep_hours"].max()),
-        value=7.0,
-        step=0.5,
+        value=12.0,
+        step=1.0,
         help="Select the number of sleep hours"
     )
 
